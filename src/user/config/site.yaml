@@ -1,7 +1,7 @@
-title: Grav
+title: OpenSBPM
 author:
-  name: Joe Bloggs
-  email: 'joe@example.com'
+  name: Stefan Sedelmaimer
+  email: 'stefan@sedelmaier.at'
 metadata:
-    description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+    description: 'OpenSBPM ist easy to use, yet powerful, open source subjectoriented business process model workflow engine'
 
