@@ -1,1 +1,9 @@
+
+## Grav ##
+/src/cache/
+/src/user/data/licenses.yaml
+/src/user/plugins/devtools/
+
+
+## NetBeans ##
 nbproject/private/
