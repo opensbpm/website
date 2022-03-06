@@ -32,11 +32,10 @@ jobs:
           cd ..
       
       - name: upload to ftp
-        uses: sebastianpopp/ftp-action@releases/v2
+        uses: genietim/ftp-action@releases/v4
         with:
           host: ${{secrets.FTP_SERVER}}
           user: ${{secrets.FTP_USERNAME}}
           password: ${{secrets.FTP_PASSWORD}}
           localDir: "src"
           remoteDir: "opensbpm"
-          options: ""
