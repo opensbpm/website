@@ -36,7 +36,7 @@ jobs:
         with:
           sftp: false # optional
           host: ${{secrets.FTP_SERVER}}
-          user: ${{secrets.FTP_USERNAME}}
+          username: ${{secrets.FTP_USERNAME}}
           password: ${{secrets.FTP_PASSWORD}}
           local_folder: "src"
           remote_folder: "opensbpm"
