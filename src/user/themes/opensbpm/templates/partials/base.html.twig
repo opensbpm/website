@@ -9,7 +9,7 @@
             <meta name="viewport" content="width=device-width, initial-scale=1">
             {% include 'partials/metadata.html.twig' %}
 
-            <link rel="icon" type="image/png" href="{{ url('theme://images/logo.png')|e }}" />
+            <link rel="icon" type="image/png" href="{{ url('theme://images/logo.svg')|e }}" />
             <link rel="canonical" href="{{ page.canonical(true)|e }}" />
         {% endblock head %}
 
@@ -31,8 +31,9 @@
     <body class="{{ page.header.body_classes|e }}">
 
         {% block header %}
-            <header>
-                <a class="logo center" href="{{ home_url|e }}">
+            <header>                
+                <a class="logo left" href="{{ home_url|e }}">
+                    <image src="{{ url('theme://images/logo.svg')|e }}" alt="{{ config.site.title|e }} Logo"/>
                     {{ config.site.title|e }}
                 </a>
                 {% block header_navigation %}
