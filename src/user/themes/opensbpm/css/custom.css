@@ -70,10 +70,10 @@ blockquote {
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .text-center {
@@ -108,9 +108,20 @@ header .logo {
 }
 
 footer {
+    width: 100%;
+
+    background-color: #eee;
+}
+
+article {
+    /* padding must match fixed footer-nav size*/
+    padding-bottom: 30px;
+}
+
+#footer-nav {
     position: fixed; 
     bottom: 0 ;
-    
+
     width: 100%;
 
     background-color: #eee;
@@ -196,3 +207,16 @@ footer {
 .main-nav .has-children .has-children > a:after {
     content: '\f105';
 }
+
+
+.footer-nav ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+.footer-nav ul li {
+    display: inline-block;
+    letter-spacing: normal;
+}
+
