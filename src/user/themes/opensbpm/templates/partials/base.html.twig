@@ -32,17 +32,14 @@
 
         {% block header %}
             <header>
-                <div class="wrapper padding">
-                    <a class="logo left" href="{{ home_url|e }}">
-                        <i class="fa fa-rebel"></i>
-                        {{ config.site.title|e }}
-                    </a>
-                    {% block header_navigation %}
-                        <nav class="main-nav">
-                            {% include 'partials/navigation.html.twig' %}
-                        </nav>
-                    {% endblock %}
-                </div>
+                <a class="logo center" href="{{ home_url|e }}">
+                    {{ config.site.title|e }}
+                </a>
+                {% block header_navigation %}
+                    <nav class="main-nav">
+                        {% include 'partials/navigation.html.twig' %}
+                    </nav>
+                {% endblock %}
             </header>
         {% endblock %}
 
