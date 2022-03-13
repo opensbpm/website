@@ -45,12 +45,12 @@ gpm:
   verify_peer: true
 
 languages:
-  supported: 
-    - de
-    - en
+#  supported: 
+#    - de
+#    - en
   default_lang: de
-  include_default_lang: true # If true, use /en/path instead of /path for default English language.
-  include_default_lang_file_extension: true # If true, use .en.md file extension instead of .md for default langauge.
-  content_fallback:
-    en: ['en'] # No fallback for English.
-    de: ['de', 'en'] #  German falls back to English version of the page.
+#  include_default_lang: true # If true, use /de/path instead of /path for default English language.
+#  include_default_lang_file_extension: true # If true, use .en.md file extension instead of .md for default langauge.
+#  content_fallback:
+#    en: ['en'] # No fallback for English.
+#    de: ['de', 'en'] #  German falls back to English version of the page.
