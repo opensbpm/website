@@ -45,8 +45,8 @@ gpm:
   verify_peer: true
 
 languages:
-#  supported: 
-#    - de
+  supported: 
+    - de
 #    - en
   default_lang: de
 #  include_default_lang: true # If true, use /de/path instead of /path for default English language.
