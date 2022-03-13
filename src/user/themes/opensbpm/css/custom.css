@@ -5,14 +5,13 @@
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     height: 100%;
     min-height: 100%;
 }
 
 body {
-    height: 100%;
-    min-height: 100%;
 
     padding: 0;
     margin: 0;
@@ -22,12 +21,16 @@ body {
     color: #606d6e;
 }
  
+
+/* Header Settings */
+
 header {
-    background-color: #02CA11;
-    color: #ca02bb;
+    background-color: #ca02bb;
+    color: #02CA11;
 }
 
 header a {
+    display: block;
     color: #fff;
 }
 
@@ -35,6 +38,103 @@ header .logo {
     font-size: 1.7rem;
     text-transform: uppercase;
 }
+
+header img {
+    height: 50px;
+}
+
+
+
+
+/* Menu Settings */
+
+.main-nav {
+    background-color: #02CA11;
+    color: #ca02bb;
+}
+
+.main-nav ul {
+    text-align: center;
+    letter-spacing: -1em;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav ul li {
+    display: inline-block;
+    letter-spacing: normal;
+}
+
+.main-nav ul li a {
+    position: relative;
+    display: block;
+    line-height: 45px;
+    color: #CA02BB;
+    padding: 0 20px;
+    white-space: nowrap;
+}
+
+.main-nav > ul > li > a {
+    border-radius: 2px;
+}
+
+/*Active dropdown nav item */
+.main-nav ul li:hover > a {
+    background-color: #175E91;
+}
+
+/* Selected Dropdown nav item */
+.main-nav ul li.selected > a {
+    background-color: #4EFD5B;
+    color: #CA02BB;
+    
+    border-top-right-radius: 20px; 
+}
+
+/* Dropdown CSS */
+.main-nav ul li {position: relative;}
+
+.main-nav ul li ul {
+    position: absolute;
+    background-color: #1F8DD6;
+    min-width: 100%;
+    text-align: left;
+    z-index: 999;
+
+    display: none;
+}
+.main-nav ul li ul li {
+    display: block;
+}
+
+/* Dropdown CSS */
+.main-nav ul li ul ul {
+    left: 100%;
+    top: 0;
+}
+
+/* Active on Hover */
+.main-nav li:hover > ul {
+    display: block;
+}
+
+/* Child Indicator */
+.main-nav .has-children > a {
+    padding-right: 30px;
+}
+.main-nav .has-children > a:after {
+    font-family: FontAwesome;
+    content: '\f107';
+    position: absolute;
+    display: inline-block;
+    right: 8px;
+    top: 0;
+}
+
+.main-nav .has-children .has-children > a:after {
+    content: '\f105';
+}
+
 
 
 
@@ -52,12 +152,12 @@ h6 {
 }
 
 a {
-    color: #ca02bb;
+    color: #CA02BB;
     text-decoration: none;
 }
 
 a:hover {
-    color: #175E91;
+    color: #4EFD5B;
 }
 
 pre {
@@ -132,88 +232,6 @@ article {
 
     background-color: #eee;
 }
-
-/* Menu Settings */
-.main-nav ul {
-    text-align: center;
-    letter-spacing: -1em;
-    margin: 0;
-    padding: 0;
-}
-
-.main-nav ul li {
-    display: inline-block;
-    letter-spacing: normal;
-}
-
-.main-nav ul li a {
-    position: relative;
-    display: block;
-    line-height: 45px;
-    color: #CA02BB;
-    padding: 0 20px;
-    white-space: nowrap;
-}
-
-.main-nav > ul > li > a {
-    border-radius: 2px;
-}
-
-/*Active dropdown nav item */
-.main-nav ul li:hover > a {
-    background-color: #175E91;
-}
-
-/* Selected Dropdown nav item */
-.main-nav ul li.selected > a {
-    background-color: #4EFD5B;
-    color: #CA02BB;
-}
-
-/* Dropdown CSS */
-.main-nav ul li {position: relative;}
-
-.main-nav ul li ul {
-    position: absolute;
-    background-color: #1F8DD6;
-    min-width: 100%;
-    text-align: left;
-    z-index: 999;
-
-    display: none;
-}
-.main-nav ul li ul li {
-    display: block;
-}
-
-/* Dropdown CSS */
-.main-nav ul li ul ul {
-    left: 100%;
-    top: 0;
-}
-
-/* Active on Hover */
-.main-nav li:hover > ul {
-    display: block;
-}
-
-/* Child Indicator */
-.main-nav .has-children > a {
-    padding-right: 30px;
-}
-.main-nav .has-children > a:after {
-    font-family: FontAwesome;
-    content: '\f107';
-    position: absolute;
-    display: inline-block;
-    right: 8px;
-    top: 0;
-}
-
-.main-nav .has-children .has-children > a:after {
-    content: '\f105';
-}
-
 
 .footer-nav ul {
     margin: 0;
