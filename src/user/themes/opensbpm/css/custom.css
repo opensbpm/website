@@ -1,9 +1,9 @@
 
 /* Color Scheme */
 :root {
-  --primary-color: #eb5e28ff;
-  --secondary-color: #f9a03fff;
-  --tertiary-color: #f3c053ff;
+  --primary-color: #540804ff;
+  --secondary-color: #81171B;
+  --tertiary-color: #AD2E24;
 }
 
 
@@ -59,7 +59,7 @@ header img {
 
 .main-nav {
     background-color: var(--secondary-color);
-    color: #A1C349;
+    color: #EA8C55;
 }
 
 .main-nav ul {
@@ -78,7 +78,7 @@ header img {
     position: relative;
     display: block;
     line-height: 45px;
-    color: #6a8532ff;
+    color: #EA8C55;
     padding: 0 20px;
     white-space: nowrap;
 }
@@ -89,13 +89,16 @@ header img {
 
 /*Active dropdown nav item */
 .main-nav ul li:hover > a {
-    background-color: #175E91;
+    background-color: var(--tertiary-color);
+    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 /* Selected Dropdown nav item */
 .main-nav ul li.selected > a {
     background-color: var(--tertiary-color);
-    color: #6a8532ff;
+    color: #EA8C55;
 
     border-top-right-radius: 20px; 
 }
@@ -161,12 +164,12 @@ h6 {
 }
 
 a {
-    color: #6a8532ff;
+    color: var(--primary-color);
     text-decoration: none;
 }
 
 a:hover {
-    color: #4EFD5B;
+    color: #ea8c55ff;
 }
 
 pre {
