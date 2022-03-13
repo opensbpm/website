@@ -20,7 +20,7 @@ body {
     line-height: 1.7;
     color: #606d6e;
 }
- 
+
 
 /* Header Settings */
 
@@ -87,7 +87,7 @@ header img {
 .main-nav ul li.selected > a {
     background-color: #4EFD5B;
     color: #CA02BB;
-    
+
     border-top-right-radius: 20px; 
 }
 
@@ -147,7 +147,7 @@ h4,
 h5,
 h6 {
     color: #000;
-    
+
     hyphens: auto;
 }
 
@@ -170,6 +170,10 @@ blockquote {
     border-left: 10px solid #eee;
     margin: 0;
     padding: 0 2rem;
+}
+
+article img {
+    width: 100%;
 }
 
 /* Utility Classes */
