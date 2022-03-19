@@ -153,6 +153,9 @@ header img {
  * Content Settings 
  */
 article {
+    margin: 0 auto;
+    max-width: 80ch;
+    
     /* padding must match fixed footer-nav size*/
     padding-bottom: 30px;
 }
