@@ -44,19 +44,17 @@
             {% endblock %}
         {% endblock %}
 
-        <article>
-            {% block body %}
-                <section id="body">
-                    {% block content %}{% endblock %}
-                </section>
-            {% endblock %}
+        {% block body %}
+            <article>
+                {% block content %}{% endblock %}
+            </article>
+        {% endblock %}
 
-            {% block footer %}
-                <footer class="text-center">
-                    <p><a href="https://getgrav.org">Grav</a> was <i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by <a href="https://trilby.media">Trilby Media, LLC</a>.</p>
-                </footer>
-            {% endblock %}
-        </article>
+        {% block footer %}
+            <footer class="text-center">
+                <p><a href="https://getgrav.org">Grav</a> was <i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by <a href="https://trilby.media">Trilby Media, LLC</a>.</p>
+            </footer>
+        {% endblock %}
 
         {% block footer_nav %}
             <footer id="footer-nav">
