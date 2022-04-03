@@ -17,6 +17,7 @@
             {% do assets.addCss('https://unpkg.com/purecss@1.0.0/build/pure-min.css', 100) %}
             {% do assets.addCss('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', 99) %}
             {% do assets.addCss('theme://css/custom.css', 98) %}
+            {% do assets.addCss('theme://css/github-ribbon.css', 97) %}
         {% endblock %}
 
         {% block javascripts %}
@@ -29,7 +30,7 @@
         {% endblock %}
     </head>
     <body class="{{ page.header.body_classes|e }}">
-
+        
         {% block header %}
             <header>                
                 <a class="logo" href="{{ home_url|e }}">
@@ -72,5 +73,9 @@
             {{ assets.js('bottom')|raw }}
         {% endblock %}
 
+        <!-- fork me on Github -->
+        <div class="github-ribbon">
+            <a href="https://github.com/opensbpm/engine" target="_blank">Fork me on GitHub</a>
+        </div>        
     </body>
 </html>
