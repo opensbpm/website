@@ -3,9 +3,11 @@ title: Home
 body_classes: title-center title-h1h2
 ---
 
-# Der Mensch im Zentrum
-## Subjektorientiere Arbeitsabläufe leicht gemacht
+# Subjektorientiere Arbeitsabläufe 
 
+Mit OpenSBPM können mithilfe der Kraft von OpenSource subjektorienter Arbeitsabläufe einfach erstellt gewartet und ausgeführt werden.
+
+## Der Mensch im Zentrum
 ![Subjektworkflow](sbpm-workflow.svg)
 
 ### Arbeitsabläufe einfach und exakt mit native Sprachmitteln zeichnen.
