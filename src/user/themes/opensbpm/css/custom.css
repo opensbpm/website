@@ -1,9 +1,9 @@
 
 /* Color Scheme */
 :root {
-  --primary-color: #540804ff;
-  --secondary-color: #81171B;
-  --tertiary-color: #AD2E24;
+  --primary-color: #1c0c5b;
+  --secondary-color: #3d2c8d;
+  --tertiary-color: #9c5ee8;
 }
 
 
@@ -60,7 +60,7 @@ header img {
 
 .main-nav {
     background-color: var(--secondary-color);
-    color: #EA8C55;
+    color: #c996cc;
 }
 
 .main-nav ul {
@@ -79,7 +79,7 @@ header img {
     position: relative;
     display: block;
     line-height: 45px;
-    color: #EA8C55;
+    color: #c996cc;
     padding: 0 20px;
     white-space: nowrap;
 }
@@ -99,7 +99,7 @@ header img {
 /* Selected Dropdown nav item */
 .main-nav ul li.selected > a {
     background-color: var(--tertiary-color);
-    color: #EA8C55;
+    color: #c996cc;
 
     border-top-right-radius: 20px; 
 }
@@ -182,7 +182,7 @@ a {
 }
 
 a:hover {
-    color: #ea8c55ff;
+    color: #c996cc;
 }
 
 pre {
