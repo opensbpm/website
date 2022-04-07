@@ -1,0 +1,6 @@
+---
+title: Vereinfachung
+---
+
+# Prozesse vereinfachen
+

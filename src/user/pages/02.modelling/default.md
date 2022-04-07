@@ -2,5 +2,5 @@
 title: Modellierung
 ---
 
-# Subjektoriertie Modellierung
+# Subjektorientierte Modellierung
 
