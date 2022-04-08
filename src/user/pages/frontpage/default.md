@@ -1,17 +1,14 @@
 ---
-title: Home
 body_classes: title-center title-h1h2
 ---
 
-# Subjektorientiere Arbeitsabläufe 
-
-Mit OpenSBPM können mithilfe der Kraft von OpenSource subjektorienter Arbeitsabläufe einfach erstellt gewartet und ausgeführt werden.
-
-## Der Mensch im Zentrum
+# Einfach intuitiv tun
 ![Subjektworkflow](sbpm-workflow.svg)
 
-### Arbeitsabläufe einfach und exakt mit native Sprachmitteln zeichnen.
-OpenSBPM fügt das Subjekt als grammatikalisches Element in die Arbeitsablaufdefinition hinzu.
+
+# Arbeitsabläufe leichtgemacht
+Subjektorientierte Arbeitsabläufe einfach erstellen und ausführen. OpenSBPM fügt das Subjekt als grammatikalisches 
+Element in die Arbeitsablaufdefinition hinzu.
 
 <div style="display: flex;">
     <div style="padding: 10px; width: 33%;">

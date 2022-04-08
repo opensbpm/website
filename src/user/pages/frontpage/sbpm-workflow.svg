@@ -27,7 +27,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.859886"
-     inkscape:cx="299.81921"
+     inkscape:cx="153.30485"
      inkscape:cy="257.67912"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -84,15 +84,14 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1c0c5b;fill-opacity:1;stroke-width:0.0165364">Vorgesetzter</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0165364"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;inline-size:27.6372;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0165364"
        x="-659.32507"
        y="-591.19202"
-       id="text377"><tspan
-         sodipodi:role="line"
+       id="text377"
+       transform="matrix(1.486431,0,0,1.6007704,328.78408,358.27873)"><tspan
          x="-659.32507"
-         y="-591.19202"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1c0c5b;fill-opacity:1;stroke-width:0.0165364"
-         id="tspan442">Dienstreiseantrag</tspan></text>
+         y="-591.19202"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:Z003;-inkscape-font-specification:'Z003, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1c0c5b;fill-opacity:1;stroke-width:0.0165364">Engine</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0165364"
@@ -214,5 +213,15 @@
        width="100%"
        height="100%"
        transform="translate(-141.83778,-83.506747)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;inline-size:27.6372;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0165364"
+       x="-659.32507"
+       y="-591.19202"
+       id="text377-3"
+       transform="translate(0.3405739,-2.6919984)"><tspan
+         x="-659.32507"
+         y="-591.19202"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1c0c5b;fill-opacity:1;stroke-width:0.0165364">OpenSBPM</tspan></tspan></text>
   </g>
 </svg>
