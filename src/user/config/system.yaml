@@ -1,8 +1,9 @@
 absolute_urls: false
 
 home:
-  alias: '/home'
-
+  alias: '/frontpage'
+  hide_in_urls: true
+  
 pages:
   theme: opensbpm
   markdown:
