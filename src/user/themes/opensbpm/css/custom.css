@@ -197,8 +197,8 @@ blockquote {
     padding: 0 2rem;
 }
 
-/* frontpage image */
-fullwidth {
+/* frontpage images */
+.fullwidth {
     width: 100%;
 }
 
