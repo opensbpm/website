@@ -10,6 +10,8 @@ body_classes: title-center title-h1h2
 Subjektorientierte Arbeitsabläufe einfach erstellen und ausführen. OpenSBPM fügt das Subjekt als grammatikalisches 
 Element in die Arbeitsablaufdefinition hinzu und ermöglicht so eine einfache Sicht und besseres Verständnis aller Prozesse.
 
+![Subjektverhalten](subject-activity.svg?classes=fullwidth)
+
 <div style="display: flex;">
     <div style="padding: 10px; width: 33%;">
         <h3>Subjektorientierte Modellierung</h3>
