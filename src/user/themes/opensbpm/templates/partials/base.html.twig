@@ -30,7 +30,7 @@
         {% endblock %}
     </head>
     <body class="{{ page.header.body_classes|e }}">
-        
+
         {% block header %}
             <header>                
                 <a class="logo" href="{{ home_url|e }}">
@@ -52,20 +52,17 @@
         {% endblock %}
 
         {% block footer %}
-            <footer class="text-center">
-                <p><a href="https://getgrav.org">Grav</a> was <i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by <a href="https://trilby.media">Trilby Media, LLC</a>.</p>
-            </footer>
-        {% endblock %}
-
-        {% block footer_nav %}
-            <footer id="footer-nav">
-                <nav class="footer-nav">
+            <footer>
+                <nav>
                     <ul>
-                        <li>Home</li>
-                        <li>Docs</li>
-                        <li>Search</li>
+                        {% for p in pages.find('/footer').children if p != page %}
+                            <li><a href="{{ p.url|e }}">{{ p.title|e }}</a></li>
+                            {% endfor %}
                     </ul>
                 </nav>
+                <div class="text-center">
+                    <p><a href="https://getgrav.org">Grav</a> was <i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by <a href="https://trilby.media">Trilby Media, LLC</a>.</p>
+                </div>
             </footer>
         {% endblock %}
 

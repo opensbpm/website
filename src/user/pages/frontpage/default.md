@@ -3,12 +3,12 @@ body_classes: title-center title-h1h2
 ---
 
 # Einfach intuitiv tun
-![Subjektworkflow](sbpm-workflow.svg)
+![Subjektworkflow](sbpm-workflow.svg?classes=fullwidth)
 
 
 # Arbeitsabläufe leichtgemacht
 Subjektorientierte Arbeitsabläufe einfach erstellen und ausführen. OpenSBPM fügt das Subjekt als grammatikalisches 
-Element in die Arbeitsablaufdefinition hinzu.
+Element in die Arbeitsablaufdefinition hinzu und ermöglicht so eine einfache Sicht und besseres Verständnis aller Prozesse.
 
 <div style="display: flex;">
     <div style="padding: 10px; width: 33%;">

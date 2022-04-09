@@ -197,7 +197,8 @@ blockquote {
     padding: 0 2rem;
 }
 
-article img {
+/* frontpage image */
+fullwidth {
     width: 100%;
 }
 
@@ -248,12 +249,6 @@ header .padding {
  */
 
 footer {
-    width: 100%;
-
-    background-color: #eee;
-}
-
-#footer-nav {
     position: fixed; 
     bottom: 0 ;
 
@@ -262,13 +257,25 @@ footer {
     background-color: #eee;
 }
 
-.footer-nav ul {
+/* 
+ * Footer Navigation Settings 
+ */
+
+footer nav {
+
+    padding: 20px;
+    width: 100%;
+
+    background-color: #eee;
+}
+
+footer nav ul {
     margin: 0;
     padding: 0;
 
 }
 
-.footer-nav ul li {
+footer nav ul li {
     display: inline-block;
     letter-spacing: normal;
 }
