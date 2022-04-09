@@ -1,5 +1,5 @@
 ---
 icon: github fa-2x
-menu: <->
+menu: </>
 redirect: 'https://github.com/opensbpm/'
 ---
