@@ -3,20 +3,19 @@ title: Modellierung
 body_classes: title-center title-h1h2
 ---
 
-
-
 <div id="frontpage">
-  <span>Subjektorientierte Workflows</span>
-  <div class="caroussel">
-    <span>einfach.  "</span>
-    <span>intuitiv. "</span>
-    <span>leichtgemacht."</span>
-    <span>agil.  "</span>
-  </div>
+    <div id="subjectoriented">Subjektorientierte</div>
+    <span id="workflow">Workflows</span>
+    <div class="caroussel">
+        <span>einfach.  "</span>
+        <span>intuitiv. "</span>
+        <span>leichtgemacht."</span>
+        <span>agil.  "</span>
+    </div>
 </div>
 
+## Subjektorientierte Workflows erstellen und ausführen. Wie und wo du willst.
 
-Subjektorientierte Workflows erstellen und ausführen. Wie und wo du willst
 
 <!--
 <div style="display: flex;">

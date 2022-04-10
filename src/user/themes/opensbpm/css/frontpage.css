@@ -2,16 +2,28 @@
 
 #frontpage{
     padding: 100px;    
- 
+
     font-size: xxx-large;
+}
+
+#subjectoriented {
+    padding-bottom: 20px;
+    
+    color: #9C5EE8;
+    font-size: 0.6em;    
+    transform: rotate(-15deg);   
+}
+
+#workflow {
+    padding-left: 40px;
 }
 
 /* caroussel div */
 .caroussel span{
     position: absolute;
-    
+
     opacity: 0;
-    
+
     animation: text-caroussel 16s infinite;
 }
 
@@ -26,7 +38,7 @@
 .caroussel span:nth-child(4){
     animation-delay: 12s;
 }
-    
+
 /* text-caroussel animation code */
 @keyframes text-caroussel {
     0%  {opacity:0;}
