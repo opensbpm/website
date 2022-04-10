@@ -1,9 +1,9 @@
 
 /* Color Scheme */
 :root {
-  --primary-color: #1c0c5b;
-  --secondary-color: #3d2c8d;
-  --tertiary-color: #9c5ee8;
+    --primary-color: #1c0c5b;
+    --secondary-color: #3d2c8d;
+    --tertiary-color: #9c5ee8;
 }
 
 
@@ -49,6 +49,12 @@ header {
 /* span wwith title */
 #title {    
     padding-bottom: 10px;
+
+    background: linear-gradient(100deg, #1C0C5B 10%, #9C5EE8 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }
 
 
@@ -100,7 +106,7 @@ header nav {
 .main-nav ul li:hover > a {
     background-color: var(--primary-color);
     color: #C996CC;
-    
+
     border-radius: 20px;
 }
 
@@ -108,7 +114,7 @@ header nav {
 .main-nav ul li.selected > a {
     background-color: var(--primary-color);
     color: #fff;
-    
+
     border-radius: 20px;
 }
 
@@ -163,7 +169,7 @@ header nav {
 article {
     margin: 0 auto;
     max-width: 80ch;
-    
+
     /* padding must match fixed footer-nav size*/
     padding-bottom: 30px;
 }
