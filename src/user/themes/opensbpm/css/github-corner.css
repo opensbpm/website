@@ -2,7 +2,7 @@
 /* source from https://github.com/tholman/github-corners */
 
 .github-corner:hover .octo-arm{
-    animation:octocat-wave 560ms ease-in-out;
+    animation:octocat-wave 560ms infinite ease-in-out;
 }
 
 @keyframes octocat-wave{
