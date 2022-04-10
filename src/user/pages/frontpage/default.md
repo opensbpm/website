@@ -12,6 +12,7 @@ Element in die Arbeitsablaufdefinition hinzu und ermöglicht so eine einfache Si
 
 ![Subjektverhalten](subject-activity.svg?classes=fullwidth)
 
+<!--
 <div style="display: flex;">
     <div style="padding: 10px; width: 33%;">
         <h3>Subjektorientierte Modellierung</h3>
@@ -28,3 +29,4 @@ Element in die Arbeitsablaufdefinition hinzu und ermöglicht so eine einfache Si
         <img src="https://picsum.photos/200/300.jpg?random=3" alt="Simulation" />
     </div>
 </div>
+-->
