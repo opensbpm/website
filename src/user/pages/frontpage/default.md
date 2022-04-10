@@ -1,16 +1,22 @@
 ---
+title: Modellierung
 body_classes: title-center title-h1h2
 ---
 
-# Einfach intuitiv tun
-![Subjektworkflow](sbpm-workflow.svg?classes=fullwidth)
 
 
-# Arbeitsabläufe leichtgemacht
-Subjektorientierte Arbeitsabläufe einfach erstellen und ausführen. OpenSBPM fügt das Subjekt als grammatikalisches 
-Element in die Arbeitsablaufdefinition hinzu und ermöglicht so eine einfache Sicht und besseres Verständnis aller Prozesse.
+<div id="frontpage">
+  <span>Subjektorientierte Workflows</span>
+  <div class="caroussel">
+    <span>einfach.  "</span>
+    <span>intuitiv. "</span>
+    <span>leichtgemacht."</span>
+    <span>agil.  "</span>
+  </div>
+</div>
 
-![Subjektverhalten](subject-activity.svg?classes=fullwidth)
+
+Subjektorientierte Workflows erstellen und ausführen. Wie und wo du willst
 
 <!--
 <div style="display: flex;">

@@ -1,0 +1,36 @@
+
+
+#frontpage{
+    padding: 100px;    
+ 
+    font-size: xxx-large;
+}
+
+/* caroussel div */
+.caroussel span{
+    position: absolute;
+    
+    opacity: 0;
+    
+    animation: text-caroussel 16s infinite;
+}
+
+.caroussel span:nth-child(2){
+    animation-delay: 4s;
+}
+
+.caroussel span:nth-child(3){
+    animation-delay: 8s;
+}
+
+.caroussel span:nth-child(4){
+    animation-delay: 12s;
+}
+    
+/* text-caroussel animation code */
+@keyframes text-caroussel {
+    0%  {opacity:0;}
+    15% {opacity:1;}
+    26% {opacity:0;}
+}
+
