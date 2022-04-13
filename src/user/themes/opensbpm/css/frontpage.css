@@ -1,48 +1,59 @@
 
 
 #frontpage{
-    padding: 100px;    
+    padding-top: 100px;    
+    padding-bottom: 100px;    
 
     font-size: xxx-large;
 }
 
 #subjectoriented {
+    display: inline-block;
+    position: relative;
+
+    left: -50px;
+    top: 46px;
+
     padding-bottom: 20px;
-    
+
     color: #9C5EE8;
     font-size: 0.6em;    
     transform: rotate(-15deg);   
 }
 
 #workflow {
-    padding-left: 40px;
+    /*padding-left: 40px;*/
 }
 
 /* caroussel div */
-.caroussel span{
+.caroussel div{
     position: absolute;
 
     opacity: 0;
-
     animation: text-caroussel 16s infinite;
 }
 
-.caroussel span:nth-child(1){
+.caroussel .check{
+    margin-left: 90%;
+}
+
+
+.caroussel div:nth-child(1){
     color: #1c0c5b;
     animation-delay: 0s;
 }
 
-.caroussel span:nth-child(2){
+.caroussel div:nth-child(2){
     color: #3d2c8d;
     animation-delay: 4s;
 }
 
-.caroussel span:nth-child(3){
+.caroussel div:nth-child(3){
     color: #9c5ee8;
     animation-delay: 8s;
 }
 
-.caroussel span:nth-child(4){
+.caroussel div:nth-child(4){
     color: #c996cc;
     animation-delay: 12s;
 }

@@ -4,13 +4,13 @@ body_classes: title-center title-h1h2
 ---
 
 <div id="frontpage">
-    <div id="subjectoriented">Subjektorientierte</div>
-    <span id="workflow">Workflows</span>
+    <span id="subjectoriented">Subjektorientierte</span>
+    <div id="workflow">Workflows</div>
     <div class="caroussel">
-        <span>einfach.  "</span>
-        <span>intuitiv. "</span>
-        <span>leichtgemacht."</span>
-        <span>agil.  "</span>
+        <div><span>einfach.</span><span class="check">&#10003;</span></div>
+        <div><span>intuitiv.</span><span class="check">&#10003;</span></div>
+        <div><span>leichtgemacht.</span><span class="check">&#10003;</span></div>
+        <div><span>agil.</span><span class="check">&#10003;</span></div>
     </div>
 </div>
 
