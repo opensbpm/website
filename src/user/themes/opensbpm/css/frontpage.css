@@ -72,10 +72,15 @@ article a {
     padding: 26px 46px;
     border-radius: 900px;   
     
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: #fff;
 
     font-weight: bold;
+}
+
+.primary {
+    background-color: var(--primary-color);
+    color: #fff;    
 }
 
 article a:hover {
