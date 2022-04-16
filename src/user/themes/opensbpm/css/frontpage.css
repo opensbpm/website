@@ -76,3 +76,8 @@ article a {
 
     font-weight: bold;
 }
+
+article a:hover {
+    background: rgba(28, 12, 91, 0.85);
+    color: #fff;
+}

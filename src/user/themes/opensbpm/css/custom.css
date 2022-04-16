@@ -114,10 +114,10 @@ header nav ul li.selected > a {
 
 /* nav item hover */
 header nav ul li:hover > a {
-    /*background-color: var(--primary-color);*/
-    color: var(--tertiary-color);
+    border-radius: 20px;
 
-    /*border-radius: 20px;*/
+    background: rgba(28, 12, 91, 0.85);
+    color: #fff;    
 }
 
 
