@@ -1,0 +1,9 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block stylesheets %}
+    {% do assets.addCss('theme://css/frontpage.css', 97) %}
+{% endblock %}
+
+{% block content %}
+    {{ page.content|raw }}
+{% endblock %}

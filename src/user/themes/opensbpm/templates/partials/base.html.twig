@@ -13,13 +13,11 @@
             <link rel="canonical" href="{{ page.canonical(true)|e }}" />
         {% endblock head %}
 
-        {% block stylesheets %}
-            {% do assets.addCss('https://unpkg.com/purecss@1.0.0/build/pure-min.css', 100) %}
-            {% do assets.addCss('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', 99) %}
-            {% do assets.addCss('theme://css/custom.css', 98) %}
-            {% do assets.addCss('theme://css/github-corner.css', 97) %}
-            {% do assets.addCss('theme://css/frontpage.css', 97) %}
-        {% endblock %}
+        {% do assets.addCss('https://unpkg.com/purecss@1.0.0/build/pure-min.css', 100) %}
+        {% do assets.addCss('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', 99) %}
+        {% do assets.addCss('theme://css/custom.css', 98) %}
+        {% do assets.addCss('theme://css/github-corner.css', 97) %}
+        {% block stylesheets %} {% endblock %}
 
         {% block javascripts %}
             {% do assets.addJs('jquery', 100) %}

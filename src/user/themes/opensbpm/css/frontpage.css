@@ -65,3 +65,14 @@
     26% {opacity:0;}
 }
 
+article a {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 26px 46px;
+    border-radius: 900px;   
+    
+    background-color: var(--primary-color);
+    color: #fff;
+
+    font-weight: bold;
+}

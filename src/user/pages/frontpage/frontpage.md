@@ -16,6 +16,7 @@ body_classes: title-center title-h1h2
 
 ## Subjektorientierte Workflows erstellen und ausführen. Wie und wo du willst.
 
+[Get Started](../path/slug/page)
 
 <!--
 <div style="display: flex;">
