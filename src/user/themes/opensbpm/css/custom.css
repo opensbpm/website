@@ -128,8 +128,8 @@ article {
     margin: 0 auto;
     max-width: 80ch;
 
-    /* padding must match fixed footer-nav size*/
-    padding-bottom: 30px;
+    /* margin must match fixed footer-nav size*/
+    margin-bottom: 50px;
 }
 
 
@@ -222,7 +222,7 @@ header .padding {
 
 footer {
     position: fixed; 
-    bottom: 0 ;
+    bottom: 0;
 
     width: 100%;
 
