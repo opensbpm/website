@@ -50,13 +50,18 @@ header {
 /* div with logo */
 #logo {
     float: left;
-    padding-left: 70px;
+    padding-left: 10%;
+    
+    font-size: 1.7rem;
 }
 
-/* span wwith title */
-#title {    
-    padding-bottom: 10px;
+/* logo image */
+#logo img {
+    height: 50px;
+}
 
+/* logo title */
+#logo span{    
     background: linear-gradient(100deg, #1C0C5B 10%, #9C5EE8 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -69,13 +74,6 @@ header a {
     display: block;
 }
 
-header .logo {
-    font-size: 1.7rem;
-}
-
-header img {
-    height: 50px;
-}
 
 
 /* 
