@@ -22,6 +22,10 @@
     {% endfor %}
 {% endmacro %}
 
+{# for info about pages and page 
+    see https://learn.getgrav.org/16/themes/theme-vars#pages-object 
+    see https://learn.getgrav.org/16/themes/theme-vars#page-object 
+#}
 <ul>
     {% if config.theme.dropdown.enabled %}
         {{ _self.loop(pages) }}
