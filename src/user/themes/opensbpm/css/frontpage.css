@@ -30,7 +30,8 @@
     position: absolute;
 
     opacity: 0;
-    animation: text-caroussel 16s infinite;
+    /* 1500ms for each -> 1500x4 = 6000 */
+    animation: text-caroussel 6000ms infinite;
 }
 
 .caroussel .check{
@@ -40,22 +41,22 @@
 
 .caroussel div:nth-child(1){
     color: #1c0c5b;
-    animation-delay: 0s;
+    animation-delay: 0ms;
 }
 
 .caroussel div:nth-child(2){
     color: #3d2c8d;
-    animation-delay: 4s;
+    animation-delay: 1500ms;
 }
 
 .caroussel div:nth-child(3){
     color: #9c5ee8;
-    animation-delay: 8s;
+    animation-delay: 3000ms;
 }
 
 .caroussel div:nth-child(4){
     color: #c996cc;
-    animation-delay: 12s;
+    animation-delay: 4500ms;
 }
 
 /* text-caroussel animation code */
