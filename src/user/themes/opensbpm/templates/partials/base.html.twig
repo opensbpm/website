@@ -56,9 +56,9 @@
             <footer>
                 <nav>
                     <ul>
-                        {% for p in pages.find('/footer').children if p != page %}
+                        {% for p in pages.find('/footer').children if p != page and p.visible == true %}
                             <li><a href="{{ p.url|e }}">{{ p.title|e }}</a></li>
-                            {% endfor %}
+                        {% endfor %}
                     </ul>
                 </nav>
                 <div class="text-center">
