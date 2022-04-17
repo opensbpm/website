@@ -7,7 +7,7 @@ home:
 pages:
   theme: opensbpm
   markdown:
-    extra: false
+    extra: true
   process:
     markdown: true
     twig: false
