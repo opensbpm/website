@@ -27,7 +27,7 @@ body {
     font-size: 1rem;
     line-height: 1.7;
     color: #606d6e;
-    
+
     background-image: url("/user/themes/opensbpm/images/background.svg");
 }
 
@@ -40,7 +40,7 @@ header {
     position: sticky;
     top: 0;
     */
-    
+
     padding-top: 5%;
 
     color: var(--primary-color);
@@ -50,7 +50,7 @@ header {
 #logo {
     float: left;
     padding-left: 10%;
-    
+
     font-size: 1.7rem;
 }
 
@@ -62,7 +62,7 @@ header {
 /* logo title */
 #logo span{    
     font-weight: bold;
-    
+
     background: linear-gradient(100deg, #1C0C5B 10%, #9C5EE8 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -76,9 +76,9 @@ header {
  */
 header nav {
     display: inline-block;
-    
+
     padding-left: 10%;
-    
+
     font-size: 1.5rem;
     font-weight: bold;
 
@@ -252,3 +252,6 @@ footer nav ul li {
     letter-spacing: normal;
 }
 
+footer div {
+    font-size: 0.75rem;
+}
