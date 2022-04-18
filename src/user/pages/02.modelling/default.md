@@ -13,6 +13,9 @@ Element in die Arbeitsablaufdefinition hinzu und ermöglicht so eine einfache Si
 
 ![Subjektverhalten](subject-activity.svg?classes=fullwidth)
 
+# Grafische Darstellung
+![Deinstreiseantrag](travelrequest.svg?classes=fullwidth)
+
 <!--
 <div style="display: flex;">
     <div style="padding: 10px; width: 33%;">
