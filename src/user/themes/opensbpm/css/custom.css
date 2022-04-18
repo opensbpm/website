@@ -6,12 +6,24 @@
     --tertiary-color: #9c5ee8;
 }
 
+@font-face {
+    font-family: SketchyFont;
+    src: url("/user/themes/opensbpm/fonts/KOMTXT__.ttf");
+}
+
+@font-face {
+    font-family: SketchyFont;
+    src: url("/user/themes/opensbpm/fonts/KOMTXTB_.ttf");
+    font-weight: bold;
+}
 
 /* Core Stuff */
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+
+    font-family: SketchyFont;
 }
 
 html,
@@ -60,7 +72,7 @@ header {
 }
 
 /* logo title */
-#logo span{    
+#logo span{
     font-weight: bold;
 
     background: linear-gradient(100deg, #1C0C5B 10%, #9C5EE8 80%);
@@ -117,7 +129,7 @@ header nav ul li:hover > a {
     border-radius: 40px;
 
     background: rgba(28, 12, 91, 0.85);
-    color: #fff;    
+    color: #fff;
 }
 
 
@@ -221,7 +233,7 @@ header .padding {
  */
 
 footer {
-    position: fixed; 
+    position: fixed;
     bottom: 0;
 
     width: 100%;
