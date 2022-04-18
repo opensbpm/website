@@ -8,14 +8,16 @@
 
 @font-face {
     font-family: SketchyFont;
-    src: url("/user/themes/opensbpm/fonts/KOMTXT__.ttf");
+    src: url("/user/themes/opensbpm/fonts/Acme-Regular.ttf");
 }
 
+/*
 @font-face {
     font-family: SketchyFont;
     src: url("/user/themes/opensbpm/fonts/KOMTXTB_.ttf");
     font-weight: bold;
 }
+*/
 
 /* Core Stuff */
 * {
