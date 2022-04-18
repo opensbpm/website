@@ -100,7 +100,7 @@ header nav ul li a {
     position: relative;
     display: block;
     line-height: 45px;
-    padding: 0 20px;
+    padding: 10px 20px;
     white-space: nowrap;
 }
 
@@ -109,12 +109,12 @@ header nav ul li.selected > a {
     background-color: var(--primary-color);
     color: #fff;
 
-    border-radius: 20px;
+    border-radius: 40px;
 }
 
 /* nav item hover */
 header nav ul li:hover > a {
-    border-radius: 20px;
+    border-radius: 40px;
 
     background: rgba(28, 12, 91, 0.85);
     color: #fff;    
