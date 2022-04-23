@@ -142,6 +142,8 @@ article {
     height: 100%;
     
     margin: 0 auto;
+    padding-top: 50px;
+    
     max-width: 80ch;
 
     /* margin must match fixed footer-nav size*/
