@@ -139,11 +139,13 @@ header nav ul li:hover > a {
  * Content Settings 
  */
 article {
+    height: 100%;
+    
     margin: 0 auto;
     max-width: 80ch;
 
     /* margin must match fixed footer-nav size*/
-    margin-bottom: 50px;
+    /*margin-bottom: 50px;*/
 }
 
 
@@ -235,8 +237,10 @@ header .padding {
  */
 
 footer {
+    /*
     position: fixed;
     bottom: 0;
+    */
 
     width: 100%;
 
