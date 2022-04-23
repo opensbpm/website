@@ -38,6 +38,9 @@ body {
     padding: 0;
     margin: 0;
 
+    display: flex;
+    flex-flow: column;
+
     font-size: 1rem;
     line-height: 1.7;
     color: #606d6e;
@@ -45,6 +48,9 @@ body {
     background-image: url("/user/themes/opensbpm/images/background.svg");
 }
 
+body > main {
+    flex: 1;
+}
 
 /* 
  * Header Settings 
@@ -140,10 +146,10 @@ header nav ul li:hover > a {
  */
 article {
     height: 100%;
-    
+
     margin: 0 auto;
     padding-top: 50px;
-    
+
     max-width: 80ch;
 
     /* margin must match fixed footer-nav size*/
