@@ -46,13 +46,11 @@
             </header>
         {% endblock %}
 
-        {% block body %}
-            <main>
-                <article>
-                    {% block content %}{% endblock %}
-                </article>
-            </main>
-        {% endblock %}
+        <main>
+            {% block body %}
+                {% block content %}{% endblock %}
+            {% endblock %}
+        </main>
 
         {% block footer %}
             <footer>
@@ -60,7 +58,7 @@
                     <ul>
                         {% for p in pages.find('/footer').children if p != page and p.visible == true %}
                             <li><a href="{{ p.url|e }}">{{ p.title|e }}</a></li>
-                        {% endfor %}
+                            {% endfor %}
                     </ul>
                 </nav>
                 <div class="text-center">

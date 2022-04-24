@@ -4,6 +4,8 @@
     {% do assets.addCss('theme://css/frontpage.css', 97) %}
 {% endblock %}
 
-{% block content %}
-    {{ page.content|raw }}
+{% block body %}
+    <article>
+        {{ page.content|raw }}
+    </article>
 {% endblock %}
