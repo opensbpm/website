@@ -4,8 +4,9 @@ title: Support
 
 # Wie kann ich das Projekt unterstützen?
 
-OpenSBPM und seine Komponenten folgen der OpenSource Idee. Jeder kann dieses Projekt unterstützen und seinen Teil 
-beitragen. Das gesamte Projekte wird von [sedstef](https://github.com/sedstef) betreut.
+OpenSBPM und seine Komponenten folgen der OpenSource Idee. Jeder kann dieses 
+Projekt unterstützen und seinen Teil beitragen. Das gesamte Projekte wird von
+ [sedstef](https://github.com/sedstef) betreut.
 
 <div style="display: flex;">
     <div style="padding: 10px; width: 33%;">
