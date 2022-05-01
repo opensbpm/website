@@ -5,7 +5,7 @@
     "homepage": "https://github.com/opensbpm/website",
     "main": "index.js",
     "scripts": {
-        "build": "gulp buildStyles"
+        "build": "gulp build"
     },
     "author": "Stefan Sedelmaier",
     "devDependencies": {

@@ -12,4 +12,12 @@ function buildStyles() {
             .pipe(gulp.dest('./css-compiled'));
 }
 
+function buildScripts() {
+    /* copy bootstrap java-script */
+    return gulp.src('node_modules/bootstrap/dist/js/bootstrap.bundle.min.js')
+            .pipe(gulp.dest('js-compiled/'));
+}
+
 exports.buildStyles = buildStyles;
+exports.buildScripts = buildScripts;
+exports.build = gulp.series(buildStyles, buildScripts);
