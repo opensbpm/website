@@ -30,7 +30,7 @@
             {{ assets.js()|raw }}
         {% endblock %}
     </head>
-    <body class="{{ page.header.body_classes|e }}">
+    <body class="{{ page.header.body_classes|e }} min-vh-100">
 
         {% block header %}
             <header class="navbar navbar-expand-md navbar-light">
@@ -51,7 +51,7 @@
             </header>
         {% endblock %}
 
-        <main class="container-fluid vh-100">
+        <main class="container-fluid">
             {% block body %}
                 {% block content %}{% endblock %}
             {% endblock %}
@@ -65,7 +65,7 @@
                             <li class="nav-item text-center">
                                 <a href="{{ p.url|e }}" class="nav-link">{{ p.title|e }}</a>
                             </li>
-                            {% endfor %}
+                        {% endfor %}
                     </ul>
                 </nav>
                 <div class=container>
