@@ -66,6 +66,7 @@
     26% {opacity:0;}
 }
 
+/*
 article a {
     display: inline-block;
     margin-top: 40px;
@@ -77,6 +78,7 @@ article a {
 
     font-weight: bold;
 }
+*/
 
 .primary {
     background-color: var(--primary-color);
