@@ -14,7 +14,7 @@ function buildStyles() {
 
 function buildScripts() {
     /* copy bootstrap java-script */
-    return gulp.src('node_modules/bootstrap/dist/js/bootstrap.bundle.min.js')
+    return gulp.src('node_modules/bootstrap/dist/js/bootstrap.bundle.min.js*')
             .pipe(gulp.dest('js-compiled/'));
 }
 
