@@ -11146,4 +11146,8 @@ header.navbar-light .navbar-nav .nav-link.active {
 .nav-link {
   border-radius: 40px;
 }
+
+footer div p {
+  font-size: 0.75rem;
+}
 /*# sourceMappingURL=opensbpm.css.map */
