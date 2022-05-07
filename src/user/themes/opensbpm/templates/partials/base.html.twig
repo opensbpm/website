@@ -58,11 +58,13 @@
         </main>
 
         {% block footer %}
-            <footer>
-                <nav>
-                    <ul>
+            <footer class="navbar navbar-light">
+                <nav class="container-fluid flex-wrap flex-md-nowrap">
+                    <ul class="navbar-nav">
                         {% for p in pages.find('/footer').children if p != page and p.visible == true %}
-                            <li><a href="{{ p.url|e }}">{{ p.title|e }}</a></li>
+                            <li class="nav-item text-center">
+                                <a href="{{ p.url|e }}" class="nav-link">{{ p.title|e }}</a>
+                            </li>
                             {% endfor %}
                     </ul>
                 </nav>
