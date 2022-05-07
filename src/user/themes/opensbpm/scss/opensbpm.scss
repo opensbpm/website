@@ -17,6 +17,9 @@ $navbar-light-active-color: $secondary;
 
 $navbar-light-brand-color: $primary;
 
+$nav-link-padding-y: 1rem;
+$nav-link-padding-x: 1.5rem;
+
 // Configuration
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";
@@ -62,3 +65,46 @@ $navbar-light-brand-color: $primary;
 
 // Utilities
 @import "../node_modules/bootstrap/scss/utilities/api";
+
+
+.navbar-light {
+    .navbar-brand {
+        span {
+            font-size: 2.5rem;
+            font-weight: bold;
+
+            background: linear-gradient(100deg, #1C0C5B 10%, #9C5EE8 80%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+    }
+
+    .navbar-nav {
+        font-size: 1.5rem;
+        font-weight: bold;
+
+        .nav-link {
+            color: $navbar-light-color;
+
+            &:hover,
+                &:focus {
+                background: rgba(28, 12, 91, 0.85);
+                color: #fff;
+                /*color: $navbar-light-hover-color;*/
+            }
+        }
+
+        .show > .nav-link,
+        .nav-link.active {
+            background-color: $navbar-light-color;
+            color: #fff;
+
+        }
+    }
+}
+
+.nav-link {
+    border-radius: 40px;
+}
