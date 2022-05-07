@@ -13,14 +13,16 @@
             <link rel="canonical" href="{{ page.canonical(true)|e }}" />
         {% endblock head %}
 
-        {% do assets.addCss('https://unpkg.com/purecss@1.0.0/build/pure-min.css', 100) %}
-        {% do assets.addCss('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', 99) %}
-        {% do assets.addCss('theme://css/custom.css', 98) %}
-        {% do assets.addCss('theme://css/github-corner.css', 97) %}
-        {% block stylesheets %} {% endblock %}
-
+        {% block stylesheets %}
+            <!-- Bootstrap CSS -->
+            {% do assets.addCss('theme://css-compiled/opensbpm.css', 100) %}
+            {% do assets.addCss('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', 99) %}
+            {% do assets.addCss('theme://css/github-corner.css', 97) %}        
+        {% endblock %}
+        
         {% block javascripts %}
-            {% do assets.addJs('jquery', 100) %}
+            {# {% do assets.addJs('jquery', 100) %} #}
+            {% do assets.addJs('theme://js-compiled/bootstrap.bundle.min.js', { group: 'bottom'}) %}
         {% endblock %}
 
         {% block assets deferred %}
@@ -70,10 +72,6 @@
             </footer>
         {% endblock %}
 
-        {% block bottom %}
-            {{ assets.js('bottom')|raw }}
-        {% endblock %}
-
         <!-- Github Corners see https://github.com/tholman/github-corners -->        
         <a href="https://github.com/opensbpm/engine" class="github-corner" aria-label="View source on GitHub">
             <svg width="128" height="128" viewBox="0 0 250 250" style="fill:#1c0c5b; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true">
@@ -84,5 +82,11 @@
                   fill="currentColor" class="octo-body"></path>
             </svg>
         </a>
+
+
+        {% block bottom %}
+            {{ assets.js('bottom')|raw }}
+        {% endblock %}
+
     </body>
 </html>
