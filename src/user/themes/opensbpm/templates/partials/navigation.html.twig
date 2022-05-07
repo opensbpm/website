@@ -32,7 +32,7 @@
     {% else %}
         {% for page in pages.children.visible %}
             {% set current_page = (page.active or page.activeChild) ? 'active' : '' %}
-            <li class="nav-item">
+            <li class="nav-item text-center">
                 <a href="{{ page.url|e }}" class="nav-link {{ current_page|e }}" aria-current="page" >
                     {% if page.header.icon %}<i class="fa fa-{{ page.header.icon|e }}"></i>{% endif %}
                     {{ page.menu|e }}
@@ -41,7 +41,7 @@
         {% endfor %}
     {% endif %}
     {% for mitem in site.menu %}
-        <li class="nav-item">
+        <li class="nav-item text-center">
             <a href="{{ mitem.url|e }}">
                 {% if mitem.icon %}<i class="fa fa-{{ mitem.icon|e }}"></i>{% endif %}
                 {{ mitem.text|e }}
