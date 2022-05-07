@@ -16,8 +16,8 @@ body_classes: title-center title-h1h2
 
 ## Subjektorientierte Workflows erstellen und ausführen. Wie und wo du willst.
 
-[Get Started](../modelling?classes=primary)
-[View on GitHub](https://github.com/opensbpm/engine/) 
+[Get Started](../modelling?classes=btn,btn-primary,btn-lg)
+[View on GitHub](https://github.com/opensbpm/engine/?classes=btn,btn-primary,btn-lg) 
 
 
 <!--
