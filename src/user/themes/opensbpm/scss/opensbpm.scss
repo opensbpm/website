@@ -119,3 +119,7 @@ header.navbar-light {
 footer div p {
     font-size: .75rem;
 }
+
+main > article {
+    max-width: 80ch;
+}
