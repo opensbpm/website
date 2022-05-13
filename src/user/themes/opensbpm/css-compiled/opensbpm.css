@@ -11143,6 +11143,10 @@ header.navbar-light .navbar-nav .nav-link.active {
   color: #fff;
 }
 
+.nav-item {
+  margin: 0.3rem;
+}
+
 .nav-link {
   border-radius: 40px;
 }
