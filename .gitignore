@@ -4,6 +4,8 @@
 /src/user/data/licenses.yaml
 /src/user/plugins/devtools/
 
+## Node ##
+/node_modules/
 
 ## NetBeans ##
 nbproject/private/
