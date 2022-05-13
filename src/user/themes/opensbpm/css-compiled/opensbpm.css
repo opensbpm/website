@@ -11154,4 +11154,8 @@ header.navbar-light .navbar-nav .nav-link.active {
 footer div p {
   font-size: 0.75rem;
 }
+
+article {
+  max-width: 80ch !important;
+}
 /*# sourceMappingURL=opensbpm.css.map */
