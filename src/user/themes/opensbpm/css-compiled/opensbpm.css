@@ -11157,7 +11157,7 @@ footer div p {
   font-size: 0.75rem;
 }
 
-article {
+.container-txt {
   max-width: 80ch !important;
   hyphens: auto;
 }
