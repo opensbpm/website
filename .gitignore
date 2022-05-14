@@ -5,7 +5,7 @@
 /src/user/plugins/devtools/
 
 ## Node ##
-/node_modules/
+node_modules/
 
 ## NetBeans ##
 nbproject/private/
