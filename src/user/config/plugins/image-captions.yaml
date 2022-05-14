@@ -1,7 +1,7 @@
 enabled: true
-built_in_css: true
+built_in_css: false
 entire_page: false
 source: title
 scope: :not(figure) > img.caption
-figure_class: image-caption
-figcaption_class:
+figure_class: figure
+figcaption_class: figure-caption text-center
