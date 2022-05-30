@@ -11161,3 +11161,8 @@ footer div p {
   max-width: 80ch !important;
   hyphens: auto;
 }
+
+/*GitHub Octocat corener*/
+.github-corner {
+  z-index: 1;
+}
