@@ -8,7 +8,7 @@ function buildStyles() {
     return gulp.src('./scss/**/*.scss')
             .pipe(sourcemaps.init())
             .pipe(sass().on('error', sass.logError))
-            .pipe(sourcemaps.write('.'))
+//            .pipe(sourcemaps.write('.'))
             .pipe(gulp.dest('./css-compiled'));
 }
 
