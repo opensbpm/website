@@ -7,7 +7,7 @@
     font-size: xxx-large;
 }
 
-#subjectoriented {
+#frontpage-patch {
     display: inline-block;
     position: relative;
 
@@ -19,32 +19,4 @@
     color: #9C5EE8;
     font-size: 0.6em;    
     transform: rotate(-15deg);   
-}
-
-#workflow {
-    /*padding-left: 40px;*/
-}
-
-/*
-article a {
-    display: inline-block;
-    margin-top: 40px;
-    padding: 26px 46px;
-    border-radius: 900px;   
-    
-    background-color: var(--secondary-color);
-    color: #fff;
-
-    font-weight: bold;
-}
-*/
-
-.primary {
-    background-color: var(--primary-color);
-    color: #fff;    
-}
-
-article a:hover {
-    background: rgba(28, 12, 91, 0.85);
-    color: #fff;
 }

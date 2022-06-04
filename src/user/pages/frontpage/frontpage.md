@@ -4,8 +4,8 @@ body_classes: title-center title-h1h2
 ---
 
 <div id="frontpage">
-    <span id="subjectoriented">Subjektorientierte</span>
-    <div id="workflow">Workflows</div>
+    <span id="frontpage-patch">Subjektorientierte</span>
+    <div>Workflows</div>
 
     <div id="carouselFrontpage" class="carousel slide" data-bs-ride="carousel" data-bs-touch="false">
         <div class="carousel-inner">
