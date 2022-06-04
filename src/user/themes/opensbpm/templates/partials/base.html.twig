@@ -58,23 +58,20 @@
         </main>
 
         {% block footer %}
-            <footer class="navbar navbar-light">
-                <nav class="container-fluid flex-wrap flex-md-nowrap">
-                    <ul class="navbar-nav">
-                        {% for p in pages.find('/footer').children if p != page and p.visible == true %}
-                            <li class="nav-item text-center">
-                                <a href="{{ p.url|e }}" class="nav-link">{{ p.title|e }}</a>
-                            </li>
-                        {% endfor %}
-                    </ul>
-                </nav>
-                <div class=container>
-                    <p class="text-muted text-center">
-                        <a href="https://opensbpm.org">OpenSBPM</a> is using <a href="https://getgrav.org" target="_blank">Grav</a> 
-                        and was <i class="fa fa-code pulse"></i> with <i class="fa fa-heart"></i> by <a href="https://github.com/sedstef">sedstef</a>.
-                    </p>
-                </div>
+            <footer class="py-3 my-4">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    {% for p in pages.find('/footer').children if p != page and p.visible == true %}
+                        <li class="nav-item">
+                            <a href="{{ p.url|e }}" class="nav-link px-2 text-muted">{{ p.title|e }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+                <p class="text-center text-muted">
+                    <a href="https://opensbpm.org">OpenSBPM</a> is using <a href="https://getgrav.org" target="_blank">Grav</a> 
+                    and was <i class="fa fa-code pulse"></i> with <i class="fa fa-heart"></i> by <a href="https://github.com/sedstef">sedstef</a>.
+                </p>
             </footer>
+
         {% endblock %}
 
         <!-- Github Corners see https://github.com/tholman/github-corners -->        
