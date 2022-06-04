@@ -25,47 +25,6 @@
     /*padding-left: 40px;*/
 }
 
-/* caroussel div */
-.caroussel div{
-    position: absolute;
-
-    opacity: 0;
-    /* 1500ms for each -> 1500x4 = 6000 */
-    animation: text-caroussel 6000ms infinite;
-}
-
-.caroussel .check{
-    margin-left: 90%;
-}
-
-
-.caroussel div:nth-child(1){
-    color: #1c0c5b;
-    animation-delay: 0ms;
-}
-
-.caroussel div:nth-child(2){
-    color: #3d2c8d;
-    animation-delay: 1500ms;
-}
-
-.caroussel div:nth-child(3){
-    color: #9c5ee8;
-    animation-delay: 3000ms;
-}
-
-.caroussel div:nth-child(4){
-    color: #c996cc;
-    animation-delay: 4500ms;
-}
-
-/* text-caroussel animation code */
-@keyframes text-caroussel {
-    0%  {opacity:0;}
-    15% {opacity:1;}
-    26% {opacity:0;}
-}
-
 /*
 article a {
     display: inline-block;
