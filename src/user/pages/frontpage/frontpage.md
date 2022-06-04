@@ -1,6 +1,5 @@
 ---
 title: Modellierung
-body_classes: title-center title-h1h2
 ---
 
 <div id="frontpage">
