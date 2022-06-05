@@ -26,5 +26,5 @@ title: Modellierung
 
 ## Subjektorientierte Workflows erstellen und ausführen. Wie und wo du willst.
 
-[Get Started](../modelling?classes=btn,btn-primary,btn-lg)
+[Modellierung](../modelling?classes=btn,btn-primary,btn-lg)
 [View on GitHub](https://github.com/opensbpm/engine/?classes=btn,btn-primary,btn-lg) 
