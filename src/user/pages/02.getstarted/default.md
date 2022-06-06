@@ -25,8 +25,9 @@ OpenSBPM:engine kann mit einfachen Schritten erstellt werden.
 # Modelle deployen
 OpenSBPM-Modelle müssen in der Engine gespeichert werden. Das geschieht indem 
 ein `org.opensbpm.engine.xmlmodel.ProcessModel` in einer 
-`org.opensbpm.engine.api.ModelService`-Instance gepsichert wird.
-Beispiel mit Spring-Boot
+`org.opensbpm.engine.api.ModelService`-Instance gespeichert wird.
+
+Beispiel mit Spring-Boot:
 ```java
 
 class EngineConfigurer{
@@ -35,11 +36,13 @@ class EngineConfigurer{
     private ModelService modelService;
 
     public void startup(){
-        ProcessModel myModel = new ProcessModel().unmarshal(getClass().getResourceAsStream("/mymodel.xml"));
-        modelService.save();
+        InputStream modelStream = getClass().getResourceAsStream("/mymodel.xml");
+        ProcessModel myModel = new ProcessModel().unmarshal(modelStream);
+        modelService.save(myModel);
     }
 }
 ```
 
 # Modelle ausführen     
-Die Processmodelle können dann mit `org.opensbpm.engine.api.EngineService` verwaltet werden.
+Die Prozessmodelle können dann mit `org.opensbpm.engine.api.EngineService` 
+verwaltet werden.
