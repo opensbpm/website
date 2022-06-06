@@ -4,54 +4,52 @@ title: Impressum
 
 # Impressum
 
-Informationspflicht laut §5 E-Commerce Gesetz, §14 Unternehmensgesetzbuch, §63 Gewerbeordnung und Offenlegungspflicht laut §25 Mediengesetz.
+Informationen und Offenlegung gemäß §5 (1) ECG, § 25 MedienG, § 63 GewO und § 14 UGB
 
 <a href="https://www.wkoecg.at/Web/Ecg.aspx?FirmaID=cbf16d08-ffb5-483e-b196-b4769b38dd55" target="_blank">
     <img src="https://www.wkoecg.at/Web/Library/img/ecg.gif" style="border:0px" alt="Informationen zu E-Commerce und Mediengesetz">
 </a>
 
+**Webseitenbetreiber:**  
 Stefan Sedelmaier  
 Dorfstraße 20,  
 5661 Rauris,  
 Österreich  
 
-Unternehmensgegenstand: FG Unternehmensberatung und Informationstechnologie IT-Dienstleistung
-UID-Nummer: ATU61830148
+Unternehmensgegenstand: FG Unternehmensberatung und Informationstechnologie IT-Dienstleistung  
+UID-Nr: ATU61830148
 
-Tel.: +43 664 433 84 98  
-Fax: +43 664 433 84 98  
-E-Mail: stefan@sedelmaier.at  
+Gewerbeaufsichtbehörde: Bezirkshauptmannschaft Zell am See
 
-### Kontaktdaten des Verantwortlichen für Datenschutz
-Sollten Sie Fragen zum Datenschutz haben, finden Sie nachfolgend die Kontaktdaten der verantwortlichen Person bzw. Stelle:  
-Stefan Sedelmaier  
-Dorfstraße 20, 5661 Rauris, Österreich  
-Vertretungsberechtigt: Stefan Sedelmaier  
-E-Mail-Adresse: stefan@sedelmaier.at  
+Kontaktdaten:
 Telefon: +43 664 433 84 98  
-Impressum: [https://www.sedelmaier.at/impressum](https://www.sedelmaier.at/impressum)  
+Email: stefan (at) sedelmaier.at
 
-### EU-Streitschlichtung
-Gemäß Verordnung über Online-Streitbeilegung in Verbraucherangelegenheiten (ODR-Verordnung) möchten wir Sie über die Online-Streitbeilegungsplattform (OS-Plattform) informieren. Verbraucher haben die Möglichkeit, Beschwerden an die Online Streitbeilegungsplattform der Europäischen Kommission unter [http://ec.europa.eu/odr?tid=121890417](http://ec.europa.eu/odr?tid=121890417) zu richten. Die dafür notwendigen Kontaktdaten finden Sie oberhalb in unserem Impressum. Wir möchten Sie jedoch darauf hinweisen, dass wir nicht bereit oder verpflichtet sind, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen. 
+### Online Streitbeilegung: 
+Verbraucher, welche in Österreich oder in einem sonstigen Vertragsstaat der 
+ODR-VO niedergelassen sind, haben die Möglichkeit Probleme bezüglich dem 
+entgeltlichen Kauf von Waren oder Dienstleistungen im Rahmen einer 
+Online-Streitbeilegung (nach OS, AStG) zu lösen. Die Europäische Kommission 
+stellt eine Plattform hierfür bereit: [Online-Streitbeilegung](https://ec.europa.eu/consumers/odr)
 
-### Haftung für Inhalte dieser Website
-Wir entwickeln die Inhalte dieser Website ständig weiter und bemühen uns korrekte und aktuelle Informationen bereitzustellen. Leider können wir keine Haftung für die Korrektheit aller Inhalte auf dieser Website übernehmen, speziell für jene, die seitens Dritter bereitgestellt wurden. Als Diensteanbieter sind wir nicht verpflichtet, die von ihnen übermittelten oder gespeicherten Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Unsere Verpflichtungen zur Entfernung von Informationen oder zur Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen aufgrund von gerichtlichen oder behördlichen Anordnungen bleiben auch im Falle unserer Nichtverantwortlichkeit davon unberührt.  
-Sollten Ihnen problematische oder rechtswidrige Inhalte auffallen, bitte wir Sie uns umgehend zu kontaktieren, damit wir die rechtswidrigen Inhalte entfernen können. Sie finden die Kontaktdaten im Impressum.
+### Urheberrecht: 
+Die Inhalte dieser Webseite unterliegen, soweit dies rechtlich möglich ist, 
+diversen Schutzrechten (z.B dem Urheberrecht). Jegliche Verwendung/Verbreitung 
+von bereitgestelltem Material, welche urheberrechtlich untersagt ist, bedarf 
+schriftlicher Zustimmung des Webseitenbetreibers.
 
-### Haftung für Links auf dieser Website
-Unsere Website enthält Links zu anderen Websites für deren Inhalt wir nicht verantwortlich sind. Haftung für verlinkte Websites besteht für uns nicht, da wir keine Kenntnis rechtswidriger Tätigkeiten hatten und haben, uns solche Rechtswidrigkeiten auch bisher nicht aufgefallen sind und wir Links sofort entfernen würden, wenn uns Rechtswidrigkeiten bekannt werden.  
-Wenn Ihnen rechtswidrige Links auf unserer Website auffallen, bitte wir Sie uns zu kontaktieren. Sie finden die Kontaktdaten im Impressum.
+### Haftungsausschluss: 
+Trotz sorgfältiger inhaltlicher Kontrolle übernimmt der Webseitenbetreiber 
+dieser Webseite keine Haftung für die Inhalte externer Links. Für den Inhalt 
+der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich. 
+Sollten Sie dennoch auf ausgehende Links aufmerksam werden, welche auf eine 
+Webseite mit rechtswidriger Tätigkeit/Information verweisen, ersuchen wir um 
+dementsprechenden Hinweis, um diese nach § 17 Abs. 2 ECG umgehend zu entfernen.
+Die Urheberrechte Dritter werden vom Betreiber dieser Webseite mit größter 
+Sorgfalt beachtet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung 
+aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden 
+derartiger Rechtsverletzungen werden wir den betroffenen Inhalt umgehend 
+entfernen.
 
-### Urheberrechtshinweis
-Alle Inhalte dieser Webseite (Bilder, Fotos, Texte, Videos) unterliegen dem Urheberrecht. Bitte fragen Sie uns bevor Sie die Inhalte dieser Website verbreiten, vervielfältigen oder verwerten wie zum Beispiel auf anderen Websites erneut veröffentlichen. Falls notwendig, werden wir die unerlaubte Nutzung von Teilen der Inhalte unserer Seite rechtlich verfolgen.  
-Sollten Sie auf dieser Webseite Inhalte finden, die das Urheberrecht verletzen, bitten wir Sie uns zu kontaktieren.
-
-### Bildernachweis
-Die Bilder, Fotos und Grafiken auf dieser Webseite sind urheberrechtlich geschützt.
-
-Die Bilderrechte liegen bei den folgenden Fotografen und Unternehmen:
-    Stefan Sedelmaier  
-
-Alle Texte sind urheberrechtlich geschützt.
-
-
+Quelle: [Rechtsanwalt finden Wien](https://fairesrecht.at/anwalt/ort/Wien/1) in 
+Kooperation mit [Geld zurück Online Casino](https://fairesspiel.at/)

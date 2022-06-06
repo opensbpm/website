@@ -48,4 +48,5 @@ Wenn sie vermuten, dass im Zuge der Verarbeitung Ihrer Daten Verstöße gegen da
     Telefonnummer: +43 664 43 38 498
     Email: stefan@sedelmaier.at
 
-Quelle: [Rechtsanwalt finden Wien](https://fairesrecht.at/anwalt/ort/Wien/1) in Kooperation mit [Geld zurück Online Casino](https://fairesspiel.at/)
+Quelle: [Rechtsanwalt finden Wien](https://fairesrecht.at/anwalt/ort/Wien/1) in 
+Kooperation mit [Geld zurück Online Casino](https://fairesspiel.at/)
