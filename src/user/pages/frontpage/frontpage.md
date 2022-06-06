@@ -28,4 +28,3 @@ title: Modellierung
 
 [Features](../features?classes=btn,btn-primary,btn-lg)
 [Get Started](../getstarted?classes=btn,btn-primary,btn-lg)
-[View on GitHub](https://github.com/opensbpm/engine/?classes=btn,btn-primary,btn-lg) 
