@@ -2,9 +2,9 @@
 title: Get Started
 ---
 
-# Library bauen
-OpenSBPM:engine kann mit einfachen Schritten erstellt werden.
-1. Das Git-Rpeository clonen
+## Library bauen
+Die **OpenSBPM:engine** kann mit einfachen wenigen Schritten installiert werden.  
+1. Das Git-Repository clonen
 ```shell
     git clone https://github.com/opensbpm/engine
 ```
@@ -22,7 +22,7 @@ OpenSBPM:engine kann mit einfachen Schritten erstellt werden.
 </dependency>    
 ```
 
-# Modelle deployen
+## Modelle deployen
 OpenSBPM-Modelle müssen in der Engine gespeichert werden. Das geschieht indem 
 ein `org.opensbpm.engine.xmlmodel.ProcessModel` in einer 
 `org.opensbpm.engine.api.ModelService`-Instance gespeichert wird.
@@ -43,6 +43,9 @@ class EngineConfigurer{
 }
 ```
 
-# Modelle ausführen     
+Beispielmodelle sind unter [OpenSBPM:engine Examples](https://github.com/opensbpm/engine/tree/main/examples/src/main/resources/org/opensbpm/engine/examples)
+zu finden.
+
+## Modelle ausführen     
 Die Prozessmodelle können dann mit `org.opensbpm.engine.api.EngineService` 
 verwaltet werden.
