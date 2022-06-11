@@ -24,7 +24,7 @@ Projekt unterstützen und seinen Teil beitragen. Das gesamte Projekte wird von
     </div>
     <div style="padding: 10px; width: 33%;">
         <h4>Mitwirken</h4>
-        <a href="https://github.com/opensbpm/engine/pulls">Pull Requests<a><br>
-        <a href="https://github.com/opensbpm/engine/issues">Issues<a>
+        <a href="https://github.com/opensbpm/engine/pulls">Pull Requests</a><br>
+        <a href="https://github.com/opensbpm/engine/issues">Issues</a>
     </div>
 </div>
