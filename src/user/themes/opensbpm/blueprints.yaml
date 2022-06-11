@@ -6,13 +6,13 @@ description: Theme for OpenSBPM Website
 icon: rebel
 author:
   name: Stefan Sedelmaier
-  email: stefan@sedelmaier.at
-homepage: https://github.com/sedstef/grav-theme-opensbpm
-demo: http://demo.yoursite.com
+  email: stefan (at) sedelmaier.at
+homepage: https://github.com/opensbpm/website
+demo: http://www.opensbpm.org/
 keywords: grav, theme, etc
-bugs: https://github.com/sedstef/grav-theme-opensbpm/issues
-readme: https://github.com/sedstef/grav-theme-opensbpm/blob/develop/README.md
-license: MIT
+bugs: https://github.com/opensbpm/website/issues
+readme: https://github.com/opensbpm/website/README.md
+license: GPL
 
 dependencies:
   - { name: grav, version: '>=1.6.0' }
