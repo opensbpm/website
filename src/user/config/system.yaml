@@ -54,8 +54,7 @@ languages:
   supported: 
     - de
 #    - en
-#  default_lang: de
-  include_default_lang: true # If true, use /en/path instead of /path for default English language.
+  include_default_lang: false # If true, use /en/path instead of /path for default English language.
 #  include_default_lang_file_extension: true # If true, use .en.md file extension instead of .md for default langauge.
 #  content_fallback:
 #    en: ['en'] # No fallback for English.
