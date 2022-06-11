@@ -1,5 +1,5 @@
 ---
-title: Modellierung
+title: OpenSBPM Workflow Engine
 ---
 
 <div id="frontpage">
