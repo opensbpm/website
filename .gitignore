@@ -5,6 +5,7 @@
 /src/user/config/security.yaml
 /src/user/data/licenses.yaml
 /src/user/plugins/devtools/
+/src/vendor/
 
 ## Node ##
 node_modules/
