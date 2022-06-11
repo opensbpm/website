@@ -1,6 +1,8 @@
 
 ## Grav ##
 /src/cache/
+/src/user/config/versions.yaml
+/src/user/config/security.yaml
 /src/user/data/licenses.yaml
 /src/user/plugins/devtools/
 
