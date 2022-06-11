@@ -5,6 +5,16 @@
 /src/user/config/security.yaml
 /src/user/data/licenses.yaml
 /src/user/plugins/devtools/
+/src/user/plugins/email/
+/src/user/plugins/form/
+/src/user/plugins/admin/
+/src/user/plugins/flex-objects/
+/src/user/plugins/login/
+/src/user/data/
+/src/user/accounts/
+/src/assets/
+/src/images/
+/src/logs/
 /src/vendor/
 
 ## Node ##
