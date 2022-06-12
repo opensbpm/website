@@ -1,4 +1,4 @@
 ---
 title: Home
-redirect: '/frontpage'
+redirect: '/'
 ---
