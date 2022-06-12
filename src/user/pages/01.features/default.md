@@ -21,14 +21,14 @@ Modell wird reduziert und der gesamte Arbeitsablauf wird einfach.
 #### Beispiel Dienstreiseantrag
 Am Beispiel Dienstreiseantrag werden die unterschiedlichen Stati sichtbar. Aus 
 der Perspektive des Antragsteller sind folgenden Schritte notwendig:
-* Dienstreiseantrag ausführen (Funktonsstatus mit Start)
+* Dienstreiseantrag ausführen (Funktionsstatus mit Start)
 * Dienstreiseantrag an den Vorgesetzten schicken (Sendestatus)
 * Antwort von Vorgesetzten emfpangen (Emfpangsstatus)
 * Im Fall einer Ablehung 
-    * Prozessende (Funktonsstatus mit Ende)
+    * Prozessende (Funktionsstatus mit Ende)
 * Im Fall einer Genehmigung 
-    * Dienstreise antreten (Funktonsstatus)
-    * Prozessende (Funktonsstatus mit Ende)
+    * Dienstreise antreten (Funktionsstatus)
+    * Prozessende (Funktionsstatus mit Ende)
 
 Grafische Darstellung
 ![Beispiel Dienstreiseantrag](travelrequest.svg?classes=caption,img-fluid "Dienstreiseantrag aus der Perspektive des Antragsteller")
