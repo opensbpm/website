@@ -38,7 +38,7 @@ Grafische Darstellung
 # Subjektverhalten
 #### Die Kommunikation der Akteure kann im Subjektverhalten grafisch dargestellt werden.
 Die Kommunikation aller beteiligten Subjekte eines Workflows kann im 
-Subjektverhalten dargestellt werden. Die Arbeitsbezeihung und der Lebenslauf der 
+Subjektverhalten dargestellt werden. Die Arbeitsbeziehung und der Lebenslauf der 
 beteiligten Dokumente wird sichtbar.
 
 ![Subjektverhalten](subject-activity.svg?classes=caption,img-fluid "Subjektverhalten")
@@ -48,7 +48,7 @@ beteiligten Dokumente wird sichtbar.
 # Prozesslandschaften
 Alle Prozesse einer Organisation und deren Beziehung untereinander kann in 
 Prozesslandschaften visualisiert werden. Dadurch kann eine komplette 
-Organisation und die Arbeitsbezeihung der Akteuere untereinander aus der 
+Organisation und die Arbeitsbeziehung der Akteuere untereinander aus der 
 Workflowperspektive betrachtet werden.
 
 ---
